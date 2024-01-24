@@ -5,6 +5,7 @@ import datetime
 import plotly.express as px
 
 def main():
+    st.set_page_config(page_title='Obras', layout='wide', initial_sidebar_state='collapsed')
 
     # Estilos de Texto ---------------------------------------
     st.markdown("""
